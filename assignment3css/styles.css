@@ -1,0 +1,117 @@
+body {
+    font-family: 'Pacifico', cursive;
+    margin: 0;
+    padding: 0;
+    background-color: #9C6B30;
+    background-repeat: repeat;
+    background-size: 400px;
+    color: #fff;
+    text-align: center;
+}
+
+
+header, footer {
+    background: #3F1D12;
+    color: white;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-size: 1.8em;
+}
+
+header .logo {
+    max-width: 100px;
+    height: auto;
+}
+
+.card {
+    border-radius: 15px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.4);
+    background: linear-gradient(to right, #4E2A1E, #9C6B30);
+    overflow: hidden;
+    margin: 20px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    transition: transform 0.7s ease-in-out;
+    flex-wrap: wrap; /* Makes items stack on smaller screens */
+    text-align: left;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+    transition: opacity 0.3s;
+}
+
+
+.card img:hover {
+    opacity: 0.8;
+}
+
+.card h2 {
+    color: #ffd700;
+    margin: 10px 0;
+    font-size: 1.5em;
+}
+
+.card p {
+    font-size: 1em;
+    color: #f4e1c1;
+    line-height: 1.5;
+}
+
+.content {
+    max-width: fit-content;
+    margin: 20px auto;
+}
+
+img {
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+button {
+    background: #9C6B30;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #7B4F21;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+input {
+    padding: 8px;
+    border: 1px solid #9C6B30;
+    border-radius: 5px;
+    width: 200px;
+    background: #fff;
+    color: #4E2A1E;
+}
